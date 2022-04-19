@@ -5,3 +5,88 @@
   padding: 0;
 
 }
+
+/* Header */
+
+.header-top {
+  background-color: rgba(41, 52, 73, 1);
+}
+
+.header-top a{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.header-top__logo {
+  background-color: rgba(238, 54, 67, 1);
+}
+
+.header-top__btn {
+  background-color: rgba(99, 166, 62, 1);
+}
+
+.header-down {
+  background-color: rgba(241, 245, 247, 1);
+}
+
+.header-down__promo {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: rgba(238, 54, 67, 1);
+}
+
+.header-down__tel {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 30px;
+  color: rgba(238, 54, 67, 1);
+  text-decoration: none;
+}
+
+.header-down__adress {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(50, 66, 92, 1);
+}
+
+.main-nav {
+  background-color: rgba(50, 66, 92, 1);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list__item a{
+  color:rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+/* Products */
+
+.products-list li:nth-child(1) {
+  background-color: rgba(255, 191, 71, 1);
+}
+
+.products-list li:nth-child(2) {
+  background-color: rgba(59, 188, 227, 1);
+}
+
+.products-list li:nth-child(3) {
+  background-color: rgba(220, 145, 216, 1);
+}
+
+.products-list li:nth-child(4) {
+  background-color: rgba(142, 215, 143, 1);
+}
+
+.products-list li:nth-child(5) {
+  background-color: rgba(255, 191, 71, 1);
+}
+
+.products-item h3,
+.products-item button {
+  color:rgba(255, 255, 255, 1);
+}
+
