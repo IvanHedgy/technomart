@@ -3,7 +3,8 @@
   min-width: 960px;
   margin: 0;
   padding: 0;
-
+  font-family: "Cuprum";
+  font-weight: 400;
 }
 
 /* Header */
@@ -65,28 +66,130 @@
 
 /* Products */
 
+.products-list {
+  list-style: none;
+}
+
 .products-list li:nth-child(1) {
   background-color: rgba(255, 191, 71, 1);
+  background-image: url(../img/icon/icon-1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .products-list li:nth-child(2) {
   background-color: rgba(59, 188, 227, 1);
+  background-image: url(../img/icon/icon-2.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .products-list li:nth-child(3) {
   background-color: rgba(220, 145, 216, 1);
+  background-image: url(../img/icon/icon-3.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .products-list li:nth-child(4) {
   background-color: rgba(142, 215, 143, 1);
+  background-image: url(../img/icon/icon-4.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .products-list li:nth-child(5) {
   background-color: rgba(255, 191, 71, 1);
+  background-image: url(../img/icon/icon-5.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.products-item h3,
-.products-item button {
+.products-item__link {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.products-item__link:hover {
+  background-color: rgba(197, 197, 197, 0.3);
+}
+
+.products-item__link:active {
+  background-color: rgba(169, 169, 169, 0.3);
+}
+
+.products-item h3 {
   color:rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.products-main-item {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.products-main-item__heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.products-main-item__text {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Button */
+
+.main-btn {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(238, 54, 67, 1);
+}
+
+.main-btn:hover {
+  background-color: rgba(202, 44, 55, 1);
+}
+
+.main-btn:active {
+  background-color: rgba(186, 39, 50, 1);
+}
+
+/* Popular */
+
+.popular-header {
+  background-color: rgba(249, 245, 240, 1);
+}
+
+.popular-heading {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.goods-list,
+.merch-list {
+  list-style: none;
+}
+
+/* Services */
+
+.services__heading,
+.about-us__heading,
+.contact__heading {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 1);
 }
 
