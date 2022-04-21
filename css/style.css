@@ -5,6 +5,7 @@
   padding: 0;
   font-family: "Cuprum";
   font-weight: 400;
+  color: rgba(0, 0, 0, 1);
 }
 
 /* Header */
@@ -131,6 +132,8 @@
 
 .products-main-item {
   background-color: rgba(0, 0, 0, 0.25);
+  background-image: url(../img/Layer\ 99.jpg);
+  background-repeat: no-repeat;
 }
 
 .products-main-item__heading {
@@ -182,7 +185,41 @@
   list-style: none;
 }
 
+.goods-list__item,
+.merch-list__item {
+  border: 1px solid rgba(234, 234, 234, 1);
+}
+
+.goods-item__heading {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.goods-item__price {
+  font-family: 'PT Sans';
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: rgba(169, 169, 169, 1);
+}
+
+.goods-item__new-price {
+  font-family: 'PT Sans';
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(238, 54, 67, 1);
+}
+
 /* Services */
+
+.services {
+  background-color: rgba(241, 245, 247, 1);
+}
 
 .services__heading,
 .about-us__heading,
@@ -192,4 +229,37 @@
   text-transform: uppercase;
   color: rgba(0, 0, 0, 1);
 }
+
+.services__deliver-heading {
+  font-size: 30px;
+  line-height: 30px;
+  color: rgba(50, 66, 92, 1);
+}
+
+.services__promo,
+.services__deliver {
+  font-family: 'PT Sans';
+  font-size: 13px;
+  line-height: 24px;
+}
+
+/* About-us */
+
+.about-us__text,
+.contact__text {
+  font-family: 'PT Sans';
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.company-list {
+  list-style: none;
+}
+
+.company-list__item {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Footer */
 
