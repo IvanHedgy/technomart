@@ -1,3 +1,4 @@
+/* Global */
 
 .page-body {
   min-width: 960px;
@@ -8,15 +9,22 @@
   color: rgba(0, 0, 0, 1);
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 /* Header */
 
 .header-top {
   background-color: rgba(41, 52, 73, 1);
 }
 
-.header-top a{
+.header-top a {
   color: rgba(255, 255, 255, 1);
-  text-decoration: none;
 }
 
 .header-top__logo {
@@ -43,7 +51,6 @@
   font-size: 21px;
   line-height: 30px;
   color: rgba(238, 54, 67, 1);
-  text-decoration: none;
 }
 
 .header-down__adress {
@@ -60,9 +67,8 @@
   list-style: none;
 }
 
-.nav-list__item a{
-  color:rgba(255, 255, 255, 1);
-  text-decoration: none;
+.nav-list__item a {
+  color: rgba(255, 255, 255, 1);
 }
 
 /* Products */
@@ -111,7 +117,6 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  text-decoration: none;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -124,7 +129,7 @@
 }
 
 .products-item h3 {
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -155,7 +160,6 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  text-decoration: none;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(238, 54, 67, 1);
 }
@@ -262,4 +266,60 @@
 }
 
 /* Footer */
+
+.footer-top {
+  background-color: rgba(50, 66, 92, 1);
+}
+
+.footer-top__logo {
+  background-color: rgba(238, 54, 67, 1);
+}
+
+.footer-top__adress {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(243, 247, 249, 1);
+}
+
+.list-footer-nav__item a{
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(241, 245, 247, 1);
+}
+
+.list-footer-nav__item a,
+.list-footer-goods__item a:hover {
+  text-decoration: underline;
+}
+
+.list-footer-nav__item a,
+.list-footer-goods__item a:active {
+  opacity: 0.5;
+}
+
+.list-footer-goods__item a {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(255, 209, 128, 1);
+}
+
+.footer-down {
+  background-color: rgba(41, 52, 73, 1);
+}
+
+.footer-down__copy {
+  font-size: 16px;
+  line-height: 18px;
+  color:rgba(255, 255, 255, 1);
+}
+
+.footer-down__text {
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-down__text a {
+
+}
 
