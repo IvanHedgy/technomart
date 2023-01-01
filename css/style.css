@@ -425,7 +425,7 @@ ul {
 
 /* Footer */
 
-.footer-top {
+.footer-top-bg {
   background-color: rgba(50, 66, 92, 1);
 }
 
@@ -461,8 +461,13 @@ ul {
   color: rgba(255, 209, 128, 1);
 }
 
-.footer-down {
+.footer-down-bg {
   background-color: rgba(41, 52, 73, 1);
+}
+
+.footer-down {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-down__copy {
